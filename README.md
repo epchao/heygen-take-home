@@ -9,7 +9,7 @@ When you use video translation on Heygen, behind the scenes it is a time consumi
 
 In this coding exercise you will be writing a client library in your chosen language. You will be simulating the video translation server using a configurable random delay.
 
-**Server: **
+**Server:**
 
 You will be writing a server that implements a status API and returns a result that is pending, completed or error. This is just simulating the video translation backend. It will return pending until a configurable time has passed.
 
@@ -17,7 +17,7 @@ GET /status
 
 Return result with {“result”: “pending” or “error” or “completed”}
 
-**Client Library: **
+**Client Library:**
 
 You are writing a small client library to hit this server endpoint. Imagine you will be giving this library to a third party. They will be using it to get the status of the job. 
 
